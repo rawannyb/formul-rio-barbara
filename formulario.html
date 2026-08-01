@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=g, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário Harry Potter</h1>
+    <p>Mostre que você é um verdadeiro bruxo(a)! Responda às perguntas e descubra o quanto conhece o universo de Harry Potter. </p>
+    <hr><br>
+    <form action="https://webhook.site/9768f62f-62dd-4193-864f-30ec9f99516b" method="post" enctype="multipart/form-data"</form>
+        <form>
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" name="Nome" type="text" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" name="Email" type="email" placeholder="Digite um email" required>
+        <br><br>
+        <div>
+    <label for="data">Data de Nascimento:</label>
+    <input type="date" id="data" name="data" min="1967-01-01" max="2026-12-31" required>
+  </div>
+        <br><hr>
+        <p>Você já assistiu a todos os filmes?</p>
+        <input type="radio" id="yes" name="Assistiu todos os filmes?" value="Sim">
+        <label for="yes">Sim</label>
+        <input type="radio" id="no" name="Assistiu todos os filmes?" value="Não">
+        <label for="no">Não</label>
+        <br><br>
+        <p>Qual sua casa favorita de Hogwarts?</p>
+        <input type="radio" id="grif" name="hogwarts" value="Grifinória">
+        <label for="grif">Grifinória</label>
+        <input type="radio" id="sons" name="hogwarts" value="Sonserina">
+        <label for="sons">Sonserina</label>
+        <input type="radio" id="corv" name="hogwarts" value="Corvinal">
+        <label for="corv">Corvinal</label>
+        <input type="radio" id="lufa" name="hogwarts" value="Lufa-Lufa">
+        <label for="lufa">Lufa-Lufa</label>
+        <br><br>
+        <p>Qual é o seu filme favorito da saga?</p>
+        <select>
+        <option selected disabled value="film">Selecione um filme</option>
+        <option value="1">A Pedra Filosofal</option>
+        <option value="2">A Câmara Secreta</option>
+        <option value="3">O Prisioneiro de Azkaban</option>
+        <option value="4">O Cálice de Fogo</option>
+        <option value="5">A Ordem da Fênix </option>
+        <option value="6">O Enigma do Príncipe</option>
+        <option value="7">As Relíquias da Morte 1</option>
+        <option value="8">As Relíquias da Morte 2</option>
+        </select>
+        <br><br>
+        <p>Quais criaturas mágicas você mais gosta?</p>
+        <input id="item1" type="checkbox" name="Fênix" value="Fênix">
+        <label for="item1">Fênix</label>
+        <br>
+        <input id="item1" type="checkbox" name="Hipogrifo" value="Hipogrifo">
+        <label for="item1">Hipogrifo</label>
+        <br>
+        <input id="item1" type="checkbox" name="Dragão" value="Dragão">
+        <label for="item1">Dragão</label>
+        <br>
+        <input id="item1" type="checkbox" name="ELfo-doméstico" value="Elfo-doméstico">
+        <label for="item1">Elfo-doméstico</label>
+        <br>
+        <input id="item1" type="checkbox" name="Testrálio" value="Testrálio">
+        <label for="item1">Testrálio</label>
+        <br>
+        <input id="item1" type="checkbox" name="Dementador" value="Dementador">
+        <label for="item1">Dementador</label><br>
+        <input id="item1" type="checkbox" name="Unicórnio" value="Unicórnio">
+        <label for="item1">Unicórnio</label>
+        <br><br>
+        <p>Qual é o seu personagem favorito? </p>
+        <textarea name="nome personagem" placeholder="Digite aqui" cols="35"></textarea>
+        <p>Se você recebesse uma carta de Hogwarts, qual seria sua reação?</p>
+        <textarea name="sua opiniao" placeholder="Digite aqui sua reação" rows="5" cols="45"></textarea>
+        <fieldset>
+            <legend>Harry Potter</legend>
+            <label for="gosto">O que você mais gosta em Harry Potter?</label><br>
+             <textarea id="gosto" name="gosto" rows="4" cols="40"
+                  placeholder="Escreva sua resposta..."></textarea>
+        <br><br>         
+        </fieldset>
+        <br><br>
+        <button type="submit">Enviar Formulário</button>
+        </form>
+</body>
+</html>
